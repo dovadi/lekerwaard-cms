@@ -30,3 +30,20 @@
 .hero h1 {
   color: white;
 }
+
+h1.header {
+  color: $primary-color;
+  margin: 0px 0px 0px 10px;
+}
+
+@media screen and (max-width: $screen-md-max){
+  h1.header {
+    margin: 10px 0px 0px 10px;
+  }
+}
+
+@media screen and (max-width: $screen-xs-max){
+  h1.header {
+    margin: 20px 0px 0px 10px;
+  }
+}
